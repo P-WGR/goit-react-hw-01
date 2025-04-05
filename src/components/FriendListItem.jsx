@@ -1,6 +1,4 @@
-const FriendListItem = ({ id, avatar, name, isOnline }) => {
-  console.log({ id, avatar, name, isOnline });
-
+const FriendListItem = ({ avatar, name, isOnline }) => (
   return (
     <li key={id} className="cardFriend">
       <img className="imgFriend" src={avatar} alt="Avatar" width="70" />

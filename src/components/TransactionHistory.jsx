@@ -1,5 +1,5 @@
-const TransactionHistory = ({ items }) => {
-  return (
+const TransactionHistory = ({ items }) => (
+return (
     <table>
       <thead>
         <tr>

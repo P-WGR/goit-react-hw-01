@@ -1,5 +1,5 @@
-const Profile = ({ name, tag, location, image, stats }) => {
-  return (
+const Profile = ({ name, tag, location, image, stats }) => (
+return (
     <div className="card">
       <div>
         <img src={image} alt="User avatar" className="profileAvatar" />
